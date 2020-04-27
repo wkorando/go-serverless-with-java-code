@@ -6,11 +6,11 @@ packages:
     license: Apache-2.0
     actions:
       helloJava:
-        function: target/hello-world-java.jar
+        function: hello-world-java.jar
         runtime: java
         main: com.example.FunctionApp
       webHello:
-        function: target/hello-world-java.jar
+        function: hello-world-java.jar
         runtime: java
         main: com.example.WebHello      
         web-export: true
