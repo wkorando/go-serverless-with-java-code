@@ -16,10 +16,8 @@ services:
     service_id: hostedgit
     parameters:
       repo_url: "{{#zip_url}}{{zip_url}}{{/zip_url}}{{^zip_url}}{{repository}}{{/zip_url}}"
-      repo_name: "{{toolchain.name}}"
+      repo_name: "go-serverless-with-java-pipeline"
       type: clone
-      has_issues: true
-      enable_traceability: true
 
   # Pipelines
   build:
